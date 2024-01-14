@@ -17,7 +17,7 @@ namespace Kamla_Raul_ProiectFinal.Model
         public decimal Price { get; set; }
 
         [DataType(DataType.Date)]
-        public DateTime PublishingDate { get; set; }
+        public DateTime? PublishingDate { get; set; }
         public int? AuthorId { get; set; }
         public Author? Author { get; set; }
 
